@@ -1,0 +1,21 @@
+name: yolov5-obb
+channels:
+  - pytorch-lts
+  - nvidia
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.1
+  - pytorch
+  - torchvision
+  - pip:
+    - PyYAML
+    - tqdm
+    - opencv-python
+    - pandas
+    - requests
+    - matplotlib
+    - seaborn
+    - tensorboard
+    - wandb
